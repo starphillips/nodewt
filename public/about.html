@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Where To?</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./static/assets/img/iconlogo.png" rel="icon">
+  <link href="./static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="./static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="./static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="./static/assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com" target="_blank">whereto@web.de</a></i>
+          <!-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i> -->
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+            <!--<a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/whereto.mas/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="/" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="./static/assets/img//logos/logo.png" alt="" class="logo-img">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="/">Home<br></a></li>
+            <li><a href="/about" class="active">About</a></li>
+            <li class="dropdown"><a href="/categories"><span>Events</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="/categories?filter=filter-house">House</a></li>
+                <li><a href="/categories?filter=filter-techno">Techno</a></li>
+                <li><a href="/categories?filter=filter-pop">Pop</a></li>
+                <li><a href="/categories?filter=filter-rb">R&B</a></li>
+                <li><a href="/categories">Explore</a></li>
+              </ul>
+            <li class="dropdown"><a href="/organisers"><span>Organisers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="/organisers?filter=filter-org">Event Organisers</a></li>
+                <li><a href="/organisers?filter=filter-venue">Venues</a></li>
+                <li><a href="/organisers">Explore</a></li>
+              </ul>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>About Us</span></h2>
+            <p>Behind the idea.</p>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="./static/assets/img/logos/logo2.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+
+        <!-- Row 1: Welcome + Dance -->
+        <div class="row gy-4">
+          <!-- Welcome text -->
+          <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Welcome to Our Website!</h3>
+            <p>At <em>Where To?</em>, our mission is to create a space where events in Maastricht can be easily 
+              discovered, shared, and enjoyed. We’re just getting started, which means the site is waiting to be 
+              filled with upcoming events and local hotspots.</p>
+
+            <p>Maastricht is an amazing city, and we want to make it even better by connecting everyone — students, 
+              visitors, and residents alike. Whilst student life inspired this project, our platform is open to all.</p>
+
+            <p>That’s why we’re looking to work with organisers and venues who want their events to be seen and 
+              enjoyed by more people across Maastricht. If you’re involved in event organisation, we’d love to hear 
+              from you — together, we can make <em>Where To?</em> the go-to spot for discovering what’s happening in town.</p>
+
+            <p>And as we grow, we want the platform to be shaped by the people who use it. If there’s anything you’d 
+              like us to add or improve, <a href="/contact">let us know</a> — your ideas matter.</p>
+            
+            <br> 
+            <h4>CALLING ALL EVENT ORGANISERS</h4>
+            <p>Feel free to have a look at what <a href="{{ url_for('event_page', page_name='event1')}}">your event page</a> may
+            look like if featured on <em>Where To?</em>.</p>
+            <p>With your events on our platform, we would also love to
+            dedicate a page to <a href="ven-page.html"> your event organisation or venue</a>, to tell the Maasi people a bit more about you!</p>
+
+            <p><strong>– Jonas & Star</strong></p>
+          </div>
+
+          <!-- Dance picture -->
+          <div class="col-lg-6 order-2 order-lg-2" data-aos="fade-up" data-aos-delay="250">
+            <img src="./static/assets/img/about/about2.jpg" class="img-fluid rounded-4 mb-4" alt="Dance event">
+          </div>
+        </div>
+
+        <!-- Row 2: Donkey + Jonas -->
+        <div class="row gy-4">
+          <!-- Donkey picture -->
+          <div class="col-lg-6 order-4 order-lg-1" data-aos="fade-up" data-aos-delay="250">
+            <img src="./static/assets/img/about/about.jpg" class="img-fluid rounded-4 mb-4" alt="Donkey costume">
+          </div>
+
+          <!-- Jonas text -->
+          <div class="col-lg-6 order-3 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <h3>A bit about us..</h3>
+            <p>Hello guys, I’m Jonas, and currently in my third year of studying International Business at Maastricht Uni.</p>
+            <p>Another thing about me, I don’t like unorganised things. That’s why me and my wonderful girlfriend 
+              decided to create this platform to make it easier for everyone to find and locate cool events happening 
+              in Maastricht.</p>
+            <p>We are really happy to finally start that journey. We want to make it as easy as possible for people 
+              searching WHERE-TO go and for event holders to get word out easier, ensuring a fun and busy night.</p>
+            <p>Please enjoy, with more exciting things to come!</p>
+            <p><strong>Jonas</strong></p>
+          </div>
+        </div>
+
+        <!-- Row 3: Star + Selfie -->
+        <div class="row gy-4">
+          <!-- Star text -->
+          <div class="col-lg-6 order-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <p>Hey guys, I’m Star, and currently doing a Software Engineering Internship. I miss 
+              living 5 mins away from friends and can’t wait to get back for my third year.</p>
+            <p>I know that university years are ones to seriously cherish, creating those memories that will last a 
+              lifetime because trust me it feels like only yesterday I was starting my first year.</p>
+            <p>I worked alongside my amazing boyfriend to make this platform possible. We hope that once our events 
+              pages are released, you as party lovers will be able to also share comments and connect with others 
+              going to events.</p>
+            <p>We hope this also continues to spread awareness of events, which we know is so important for the 
+              organisers and venues who put in the incredible work to make these events special.</p>
+            <p><strong>Star</strong></p>
+          </div>
+
+          <!-- Selfie -->
+          <div class="col-lg-6 order-6 order-lg-2" data-aos="fade-up" data-aos-delay="250">
+            <img src="./static/assets/img/about/about3.jpg" class="img-fluid rounded-4 mb-4" alt="Jonas and Star selfie">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="/" class="logo d-flex align-items-center">
+            <span class="sitename">Where To?</span>
+          </a>
+          <p>Never miss a good event again.</p>
+           <div class="social-links d-flex mt-4">
+            <!--<a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a> -->
+            <a href="https://www.instagram.com/whereto.mas/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/categories">Events</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Categories</h4>
+            <ul>
+              <li><a href="/categories?filter=filter-house">House</a></li>
+              <li><a href="/categories?filter=filter-techno">Techno</a></li>
+              <li><a href="/categories?filter=filter-pop">Pop</a></li>
+              <li><a href="/categories?filter=filter-rb">R&B</a></li>
+              <li><a href="/categories">Explore</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Based In</h4>
+          <p>Maastricht</p>
+          <br>
+          <!-- <p class="mt-4"><strong>Phone:</strong> <span></span></p> -->
+          <h4>Email</h4>
+          <p><span><a href="mailto:contact@example.com" target="_blank">whereto@web.de</a></span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2025</span> <strong class="px-1 sitename">Where To?</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="./static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="./static/assets/vendor/aos/aos.js"></script>
+  <script src="./static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="./static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="./static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="./static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="./static/assets/js/main.js"></script>
+
+</body>
+
+</html>
